@@ -142,6 +142,11 @@ img {
   font-weight: 600;
   color: var(--black);
 }
+.header__button a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
 
 .header__button button:hover {
   border: 2px solid var(--black);
