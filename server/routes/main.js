@@ -15,7 +15,7 @@ passport.use(new localStrategy(userModel.authenticate()))
 // Get
 // Home
 
-router.get('', async (req, res) => {
+router.get('/', async (req, res) => {
     try {
         const locals = {
             title: "NodeJs Blog",
