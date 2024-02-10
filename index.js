@@ -11,7 +11,7 @@ const passport = require("passport");
 
 const app = express();
 
-const PORT = 5000 || process.env.PORT;
+const PORT = process.env.PORT || 8000;
 
 // connect to db
 
